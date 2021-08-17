@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ohmyroot | mi primera página</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/library.js"></script>
+	<script type="text/javascript" src="js/help.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<link href="img/favicon.svg" rel="shortcut icon" />
+	<link rel="stylesheet" href="css/estilos.css" type="style/text">
+	<link rel="stylesheet" href="css/XL.css">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- inicio header -->
+    
+        <div id="upbar">
+            <div class="dropdown">
+                <span>File</span>
+                <div class="dropdown-content">
+                    <ul id="nav">
+                        <ul>
+                            <li><a href="#">New File</a></li>
+                            <li><a href="#">Open File</a></li>
+                            <li><a href="#">Save File</a></li>
+                        </ul>
+    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+            <div id=idtex>X-DE</div>
+    
+            <div id="toolbar">
+                <img id="save" src="./images/Save.svg" alt="Save" />
+                <img id="play" src="./images/Compile.svg" alt="Compile" />
+            </div>
+
+    <aside>
+        <div id="explorer"></div>
+    </aside>
+ 
+    <!-- inicio section -->
+    <section id="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <div >
+                        <div class="container-fluid" >
+                            <div >
+                                <textarea id="textid" placeholder="Ingrese palabra" class="form-control"
+                                    style="height:920px; width:2180px;" position="absolute"></textarea>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- fin section-->
+ 
+    <div class="limpiar"></div>
+ 
+    <!-- inicio footer -->
+    
+        <footer>
+            <div class="text-center" >
+                <div class="jumbotron" >
+                    <div class="container" style="height:50px; width:900px; padding: 0;" >
+                        
+                        <div id="list-elemets">
+                            <div class="row">
+                                <div class="col-md-6" >
+                                    <div class="form-group has-success" >
+                                        <select id="nombre" size="1" class="form-control" >
+                                            <option value="0">Tipo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-success">
+                                        <select id="lexema" size="1" class="form-control">
+                                            <option value='0'>Lexema</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <!-- fin footer -->
+</body>
+</html>
