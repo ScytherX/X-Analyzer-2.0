@@ -122,9 +122,9 @@ span {
 }
 #toolbar {
     position  : absolute;
-    width     : 2188px;
+    width     : 2190px;
     height    : 34px;
-    left      : 361px;
+    left      : 371px;
     top       : 31px;
     background: #363636;
     z-index: 3;
